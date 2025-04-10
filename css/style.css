@@ -2625,7 +2625,7 @@ body.dark .loader_line:after{
 }
 .ms_tm_contact .wrapper .left{
 	width: 90%;
-	padding-right: 40px;
+	/* padding-right: 40px; */
 }
 .ms_tm_contact .ms_tm_main_title{
     text-align: center;
@@ -4907,6 +4907,7 @@ input[type=number] {
 	.ms_tm_testimonials .testimonials_list .right .svg{width: 40px;height: 40px;}
 	.ms_tm_news .news_list ul li .details .title a{font-size: 19px;}
 	.ms_tm_modalbox .box_inner{width: 850px;}
+	.ms_tm_contact .wrapper .left{width:100%;}
 	.ms_tm_contact .wrapper .left ul li .list_inner .short h3{font-size: 19px;margin-bottom: 7px;}
 	.ms_tm_copyright{padding-bottom: 25px;}
 	.ms_tm_fixed_content .menubar ul li{height: 40px;line-height: 40px;padding-left: 45px;}
@@ -5198,8 +5199,10 @@ input[type=number] {
 	.ms_tm_news .news_list ul{margin: 0px;}
 	.ms_tm_news .news_list ul li{width: 100%;padding-left: 0px;}
 	.ms_tm_news .news_list ul li .details .title a{font-size: 19px;}
+	.ms_tm_contact .ms_tm_main_title{    text-align: left;}
 	.ms_tm_contact .wrapper .right .input_list ul{margin: 0px;}
 	.ms_tm_contact .wrapper .right .input_list ul li{width: 100%;padding-left: 0px;}
+	.ms_tm_contact .wrapper .left ul{flex-direction: column;}
 	.ms_tm_contact .wrapper .left ul li .list_inner .short h3{font-size: 19px;margin-bottom: 8px;}
 	.ms_tm_contact .wrapper .left ul li .list_inner .icon{width: 80px;height: 80px;min-width: 80px;min-height: 80px;}
 	.ms_tm_contact .wrapper .left ul li .list_inner .icon .svg{width: 30px;height: 30px;}
@@ -5247,5 +5250,7 @@ input[type=number] {
 	.intro_title img{max-width: 90px;}
 	.intro_title span{font-size: 14px;}
 	.ms_tm_intro .demo{max-width: 90%;}
+	.ms_tm_contact .wrapper .left ul{flex-direction: column;}
+	.ms_tm_contact .ms_tm_main_title{    text-align: left;}
 	
 }
