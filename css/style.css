@@ -1,34 +1,30 @@
 @charset "utf-8";
 
 /*
-/*	Copyright (c) 2021 Marketify
-/*	Author: Marketify
-/*	This file is made for CURRENT TEMPLATE
-
-01)	IKNOW BASE
-02)	IKNOW TOPBAR
-03) IKNOW IKNOW HERO 1
-04) IKNOW HERO ICONS
-05) IKNOW ABOUT
-06) IKNOW RESUME
-07) IKNOW PORTFOLIO
-08) IKNOW SERVICES
-09) IKNOW TESTIMONIALS
-10) IKNOW NEWS
-11) IKNOW CONTACT
-12) IKNOW COPYRIGHT
-13) IKNOW HERO 2
-14) IKNOW EXTRA MENU
-15) IKNOW HOME 3
-16) IKNOW CURSOR
-17) IKNOW DEMO 4
-18) IKNOW DEMO 5
-19) IKNOW DEMO 6
-20) IKNOW DEMO 7
-21) IKNOW MEDIA QUERIES (FOR SMALL DEVICES)
+01)	BASE
+02)	TOPBAR
+03) HERO 1
+04) HERO ICONS
+05) ABOUT
+06) RESUME
+07) PORTFOLIO
+08) SERVICES
+09) TESTIMONIALS
+10) NEWS
+11) CONTACT
+12) COPYRIGHT
+13) HERO 2
+14) EXTRA MENU
+15) HOME 3
+16) CURSOR
+17) DEMO 4
+18) DEMO 5
+19) DEMO 6
+20) DEMO 7
+21) MEDIA QUERIES (FOR SMALL DEVICES)
 
 /*---------------------------------------------------*/
-/*	01) IKNOW BASE
+/*	01) BASE
 /*---------------------------------------------------*/
 
 html {
@@ -378,7 +374,7 @@ body.dark .loader_line:after {
 }
 
 /*---------------------------------------------------*/
-/*	02) IKNOW MOBILE MENU
+/*	02) MOBILE MENU
 /*---------------------------------------------------*/
 
 .ms_tm_mobile_menu {
@@ -474,7 +470,7 @@ body.dark .loader_line:after {
 }
 
 /*---------------------------------------------------*/
-/*	02) IKNOW TOPBAR
+/*	02) TOPBAR
 /*---------------------------------------------------*/
 
 .ms_tm_topbar {
@@ -620,7 +616,7 @@ body.dark .loader_line:after {
 }
 
 /*---------------------------------------------------*/
-/*	03) IKNOW HERO 1
+/*	03) HERO 1
 /*---------------------------------------------------*/
 
 .ms_tm_hero {
@@ -909,7 +905,7 @@ body.dark .loader_line:after {
 }
 
 /*---------------------------------------------------*/
-/*	04) IKNOW HERO ICONS
+/*	04) HERO ICONS
 /*---------------------------------------------------*/
 
 .simple_shapes .one,
@@ -1615,7 +1611,7 @@ body.dark .loader_line:after {
 }
 
 /*---------------------------------------------------*/
-/*	05) IKNOW ABOUT
+/*	05) ABOUT
 /*---------------------------------------------------*/
 
 .ms_tm_mainpart {
@@ -1816,7 +1812,7 @@ body.dark .loader_line:after {
 }
 
 /*---------------------------------------------------*/
-/*	06) IKNOW RESUME
+/*	06) RESUME
 /*---------------------------------------------------*/
 
 .ms_tm_resume {
@@ -2174,7 +2170,7 @@ body.dark .loader_line:after {
 }
 
 /*---------------------------------------------------*/
-/*	07) IKNOW PORTFOLIO
+/*	07) PORTFOLIO
 /*---------------------------------------------------*/
 
 .ms_tm_portfolio {
@@ -2712,7 +2708,7 @@ body.dark .loader_line:after {
 }
 
 /*---------------------------------------------------*/
-/*	08) IKNOW SERVICES
+/*	08) SERVICES
 /*---------------------------------------------------*/
 
 .ms_tm_services {
@@ -2855,7 +2851,7 @@ body.dark .loader_line:after {
 }
 
 /*---------------------------------------------------*/
-/*	09) IKNOW TESTIMONIALS
+/*	09) TESTIMONIALS
 /*---------------------------------------------------*/
 
 .ms_tm_testimonials,
@@ -3004,7 +3000,7 @@ body.dark .loader_line:after {
 }
 
 /*---------------------------------------------------*/
-/*	10) IKNOW NEWS
+/*	10) NEWS
 /*---------------------------------------------------*/
 
 .ms_tm_news {
@@ -3185,7 +3181,7 @@ body.dark .loader_line:after {
 }
 
 /*---------------------------------------------------*/
-/*	11) IKNOW CONTACT
+/*	11) CONTACT
 /*---------------------------------------------------*/
 
 .ms_tm_contact {
@@ -3388,7 +3384,7 @@ input[type=number] {
 }
 
 /*---------------------------------------------------*/
-/*	12) IKNOW COPYRIGHT
+/*	12) COPYRIGHT
 /*---------------------------------------------------*/
 
 .ms_tm_copyright {
@@ -3470,7 +3466,7 @@ input[type=number] {
 }
 
 /*---------------------------------------------------*/
-/*	13) IKNOW HERO 2
+/*	13) HERO 2
 /*---------------------------------------------------*/
 
 .ms_tm_hero_second {
@@ -3617,7 +3613,7 @@ input[type=number] {
 }
 
 /*---------------------------------------------------*/
-/*	14) IKNOW EXTRA MENU
+/*	14) EXTRA MENU
 /*---------------------------------------------------*/
 
 .ms_tm_extra_menu {
@@ -3789,7 +3785,7 @@ input[type=number] {
 }
 
 /*---------------------------------------------------*/
-/*	15) IKNOW HOME 3
+/*	15) HOME 3
 /*---------------------------------------------------*/
 
 .ms_tm_fixed_background {
@@ -4369,7 +4365,7 @@ input[type=number] {
 }
 
 /*---------------------------------------------------*/
-/*	16) IKNOW CURSOR
+/*	16) CURSOR
 /*---------------------------------------------------*/
 
 .mouse-cursor {
@@ -4430,7 +4426,7 @@ input[type=number] {
 }
 
 /*---------------------------------------------------*/
-/*	17) IKNOW DEMO 4
+/*	17) DEMO 4
 /*---------------------------------------------------*/
 
 .ms_tm_sidebar_2 {
@@ -4850,7 +4846,7 @@ input[type=number] {
 }
 
 /*---------------------------------------------------*/
-/*	18) IKNOW DEMO 5
+/*	18) DEMO 5
 /*---------------------------------------------------*/
 
 .ms_tm_extra_demo {
@@ -5338,7 +5334,7 @@ input[type=number] {
 }
 
 /*---------------------------------------------------*/
-/*	19) IKNOW DEMO 6
+/*	19) DEMO 6
 /*---------------------------------------------------*/
 
 .ms_tm_mainpart_new {
@@ -5435,7 +5431,7 @@ input[type=number] {
 }
 
 /*---------------------------------------------------*/
-/*	20) IKNOW DEMO 7
+/*	20) DEMO 7
 /*---------------------------------------------------*/
 
 .ms_tm_extra_demo_2 {
@@ -5705,7 +5701,7 @@ input[type=number] {
 }
 
 /*---------------------------------------------------*/
-/*	 IKNOW INTRO
+/*	 INTRO
 /*---------------------------------------------------*/
 
 .ms_tm_intro {
@@ -5873,7 +5869,7 @@ input[type=number] {
 }
 
 /*---------------------------------------------------*/
-/*	21) IKNOW MEDIA QUERIES (FOR SMALL DEVICES)
+/*	21) MEDIA QUERIES (FOR SMALL DEVICES)
 /*---------------------------------------------------*/
 
 @media (max-width: 1400px) {
