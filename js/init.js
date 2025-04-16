@@ -1176,3 +1176,36 @@ function ms_tm_menu_image_animation(){
 		}
 	});
 }
+
+
+// Portfolio Filter 
+const filterButtons = document.querySelectorAll('.filter-btn');
+		const images = document.querySelectorAll('.image-item');
+
+		filterButtons.forEach(btn => {
+			btn.addEventListener('click', () => {
+				const filter = btn.getAttribute('data-filter');
+				images.forEach(item => {
+					const category = item.getAttribute('data-category');
+					if (filter === 'all' || category === filter) {
+						item.style.display = 'block';
+					} else {
+						item.style.display = 'none';
+					}
+				});
+			});
+		});
+
+		const lightbox = document.getElementById('lightbox');
+		const lightboxImg = document.getElementById('lightbox-img');
+
+		document.querySelectorAll('.lightbox-trigger').forEach(img => {
+			img.addEventListener('click', () => {
+				lightboxImg.src = img.src;
+				lightbox.style.display = 'flex';
+			});
+		});
+
+		lightbox.addEventListener('click', () => {
+			lightbox.style.display = 'none';
+		});
